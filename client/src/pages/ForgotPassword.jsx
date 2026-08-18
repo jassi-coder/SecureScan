@@ -44,7 +44,7 @@ function ForgotPassword() {
 
   try {
     const response = await fetch(
-      "http://localhost:5000/api/auth/forgot-password",
+  "https://securescan-production-a0c8.up.railway.app/api/auth/forgot-password",
       {
         method: "POST",
 
